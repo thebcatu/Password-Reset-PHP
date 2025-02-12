@@ -1,0 +1,164 @@
+:root {
+    --primary-color: #1891d1;
+    --primary-dark: #1d64c2;
+    --background-color: #e6f2ff;
+    --text-dark: #002960;
+    --white: #ffffff;
+    --box1-color: #ffd39a;
+    --box2-color: #c1d5a4;
+    --box3-color: #E2D9FF;
+    --box4-color: #99BEBC;
+    --table-stripe: #ceecf6;
+    --color-pending-bg: #fff3cd;
+    --color-pending-text: #856404;
+    --color-confirmed-bg: #d4edda;
+    --color-confirmed-text: #155724;
+    --color-completed-bg: #cce5ff;
+    --color-completed-text: #004085;
+    --color-cancelled-bg: #f8d7da;
+    --color-cancelled-text: #721c24;
+    --color-button-success: #28a745;
+    --color-button-danger: #dc3545;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(24, 145, 209, 0.2);
+}
+
+.form-group .icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.alert-success {
+    background: var(--color-confirmed-bg);
+    color: var(--color-confirmed-text);
+}
+
+.alert-danger {
+    background: var(--color-cancelled-bg);
+    color: var(--color-cancelled-text);
+}
+
+.timer {
+    text-align: center;
+    color: var(--text-dark);
+    margin: 1rem 0;
+}
+
+.change-email {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.change-email a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.password-requirements {
+    font-size: 0.8rem;
+    color: var(--text-dark);
+    margin-top: 0.5rem;
+}
+
+.progress {
+    height: 4px;
+    margin-top: 0.5rem;
+    background: #eee;
+    border-radius: 2px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+}

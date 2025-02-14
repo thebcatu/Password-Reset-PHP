@@ -38,6 +38,6 @@ For more information, you can contact me on:
 - **Facebook**: [mahendramahara15](https://www.facebook.com/mahendramahara15)
 - **Instagram**: [mahendramahara15](https://www.instagram.com/mahendramahara15)
 - **Telegram**: [mahendramahara](https://t.me/mahendramahara)
-- **Telegram Group**: [BCATU](https://t.me/group_BCATU)
+- **Telegram Group**: [BCATU](https://t.me/BCATU)
 
 Feel free to reach out if you have any questions or need further assistance.
